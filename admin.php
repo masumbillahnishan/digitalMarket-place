@@ -81,7 +81,7 @@
             <?php
 
 
-            // Functions to retrieve statistics (replace with your actual data retrieval logic)
+
             function getTotalProducts()
             {
                 include "connection.php";
@@ -99,7 +99,7 @@
                 } else {
                     echo "Error: " . $conn->error;
                 }
-                return  $accountCount; // Replace with the actual number of products
+                return  $accountCount; 
             }
 
 
@@ -122,7 +122,7 @@
                 } else {
                     echo "Error: " . $conn->error;
                 }
-                return $accountCount; // Replace with the actual number of accounts
+                return $accountCount; 
             }
 
             function getTotalWorkers()
@@ -142,7 +142,7 @@
                 } else {
                     echo "Error: " . $conn->error;
                 }
-                return $accountCount; // Replace with the actual number of workers
+                return $accountCount; 
             }
             function getTotalSellProducts()
             {
@@ -161,7 +161,7 @@
                 } else {
                     echo "Error: " . $conn->error;
                 }
-                return $accountCount; // Replace with the actual number of workers
+                return $accountCount; 
             }
             ?>
    <section class="text-center mt-12 pt-8">
