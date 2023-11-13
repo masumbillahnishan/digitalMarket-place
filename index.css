@@ -1,0 +1,16 @@
+.bg_shopping{
+    background-image: url(../project/image/shopping.jpg),url(../project/image/cloth\ gradiant.jpg);
+    background-size:cover;
+    background-position: center;
+    background-blend-mode:multiply;
+}
+.bg_factory{
+    background-image: url(../project/image/factory.jpg),url(../project/image/cloth\ gradiant.jpg);
+    background-size: cover;
+    background-blend-mode:multiply;
+}
+.bg_hire{
+    background-image: url(../project/image/worker.jpg),url(../project/image/cloth\ gradiant.jpg);
+    background-size: cover;
+    background-blend-mode:multiply;
+}

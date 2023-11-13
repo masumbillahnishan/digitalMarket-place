@@ -1,0 +1,5 @@
+.bg_cloth{
+    background-image: url(../project/image/clothe.jpg),url(../project/image/cloth\ gradiant.jpg);
+    background-size: cover;
+    background-blend-mode:multiply;
+}
